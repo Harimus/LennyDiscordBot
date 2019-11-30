@@ -9,9 +9,11 @@ Based on the pattern found in [lenny-face-generator](https://lenny-face-generato
   ## Currently under work
   - Audio playback using FFMPEGPCMAudio module. (Binary file needed for running)
   - Store Guild setup in a config file (including bot usage permission)
-  - Record audio input from other users.
+  - Record audio input from other users. 
   
   ## Todo
+  The below todo:s might be a little bit harder than I thought, since the API this is based on still seems to not support listening to user audio [according to this](https://github.com/Rapptz/discord.py/issues/1094). It's either to implement it myself (huge learning curve regarding audio data), Use the not so stable yet implementation, or mode to javascript API.
+  (Might be a bit harder than I thought since the API still does not support this...)
   - Speech to text (voice recognition).
   - audio playback based on above.
   - playback of youtube URL.
